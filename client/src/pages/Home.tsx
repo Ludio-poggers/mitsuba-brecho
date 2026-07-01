@@ -22,7 +22,7 @@ export default function Home() {
             <img
               src="/manus-storage/mitsuba-logo-final_4b839ab5.png"
               alt="Mitsuba Logo"
-              className="h-12 w-12"
+              className="h-12 w-12 rounded-full border-2 border-accent"
             />
           </div>
           <nav className="hidden md:flex items-center gap-8">
@@ -78,8 +78,7 @@ export default function Home() {
               <img
                 src="/manus-storage/mitsuba-logo-final_4b839ab5.png"
                 alt="Mascote Mitsuba"
-                className="w-64 h-64 md:w-80 md:h-80 drop-shadow-2xl animate-bounce"
-                style={{ animationDuration: "3s" }}
+                className="w-64 h-64 md:w-80 md:h-80 drop-shadow-2xl rounded-full border-4 border-accent"
               />
             </div>
           </div>
@@ -317,7 +316,7 @@ export default function Home() {
               <img
                 src="/manus-storage/mitsuba-logo-final_4b839ab5.png"
                 alt="Mitsuba Logo"
-                className="h-10 w-10"
+                className="h-10 w-10 rounded-full border-2 border-accent"
               />
             </div>
             <p className="text-sm text-foreground/60">
