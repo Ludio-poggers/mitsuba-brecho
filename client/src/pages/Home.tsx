@@ -55,6 +55,11 @@ export default function Home() {
                 Apresentacao
               </Button>
             </a>
+            <a href="/loja-3d" className="hidden md:inline-flex">
+              <Button variant="outline" className="border-accent text-accent hover:bg-accent/10">
+                Loja 3D
+              </Button>
+            </a>
             <Button className="btn-primary">Visitar Loja</Button>
           </div>
         </div>
