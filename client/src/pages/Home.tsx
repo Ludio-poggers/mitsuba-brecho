@@ -20,7 +20,7 @@ export default function Home() {
         <div className="container flex items-center justify-between py-4">
           <div className="flex items-center gap-3">
             <img
-              src="/manus-storage/mitsuba-logo-real_7db1be4f.png"
+              src="/manus-storage/mitsuba-logo-transparent_30380973.png"
               alt="Mitsuba Logo"
               className="h-12 w-12"
             />
@@ -76,7 +76,7 @@ export default function Home() {
             </div>
             <div className="flex justify-center">
               <img
-                src="/manus-storage/mitsuba-logo-real_7db1be4f.png"
+                src="/manus-storage/mitsuba-logo-transparent_30380973.png"
                 alt="Mascote Mitsuba"
                 className="w-64 h-64 md:w-80 md:h-80 drop-shadow-2xl animate-bounce"
                 style={{ animationDuration: "3s" }}
@@ -315,7 +315,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2">
               <img
-                src="/manus-storage/mitsuba-logo-real_7db1be4f.png"
+                src="/manus-storage/mitsuba-logo-transparent_30380973.png"
                 alt="Mitsuba Logo"
                 className="h-10 w-10"
               />
