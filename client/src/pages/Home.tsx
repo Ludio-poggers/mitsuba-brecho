@@ -35,8 +35,28 @@ export default function Home() {
             <a href="#contato" className="text-sm hover:text-accent transition-colors">
               Contato
             </a>
+            <a
+              href="https://www.canva.com/design/DAHN_GlgaE8/PHD-VVb79WFOFpZ-SwQe2g/view?embed"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm hover:text-accent transition-colors"
+            >
+              Apresentacao
+            </a>
           </nav>
-          <Button className="btn-primary">Visitar Loja</Button>
+          <div className="flex gap-3">
+            <a
+              href="https://www.canva.com/design/DAHN_GlgaE8/PHD-VVb79WFOFpZ-SwQe2g/view?embed"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden md:inline-flex"
+            >
+              <Button variant="outline" className="border-accent text-accent hover:bg-accent/10">
+                Apresentacao
+              </Button>
+            </a>
+            <Button className="btn-primary">Visitar Loja</Button>
+          </div>
         </div>
       </header>
 
