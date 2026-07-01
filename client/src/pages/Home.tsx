@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Heart, MapPin, ShoppingBag, Leaf, Users, Star } from "lucide-react";
 import { useState } from "react";
+import ProductCatalog from "@/components/ProductCatalog";
 
 /**
  * Mitsuba Landing Page
@@ -19,11 +20,10 @@ export default function Home() {
         <div className="container flex items-center justify-between py-4">
           <div className="flex items-center gap-3">
             <img
-              src="/manus-storage/mitsuba-logo-cat_215c624c.png"
+              src="/home/ubuntu/webdev-static-assets/mitsuba-logo-real.png"
               alt="Mitsuba Logo"
-              className="h-10 w-10"
+              className="h-12 w-12"
             />
-            <span className="text-xl font-bold text-accent">MITSUBA</span>
           </div>
           <nav className="hidden md:flex items-center gap-8">
             <a href="#sobre" className="text-sm hover:text-accent transition-colors">
@@ -76,7 +76,7 @@ export default function Home() {
             </div>
             <div className="flex justify-center">
               <img
-                src="/manus-storage/mitsuba-logo-cat_215c624c.png"
+                src="/home/ubuntu/webdev-static-assets/mitsuba-logo-real.png"
                 alt="Mascote Mitsuba"
                 className="w-64 h-64 md:w-80 md:h-80 drop-shadow-2xl animate-bounce"
                 style={{ animationDuration: "3s" }}
@@ -176,11 +176,14 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Catálogo de Produtos Streetwear */}
+      <ProductCatalog />
+
       {/* Seção: Produtos e Serviços */}
       <section className="section-dark">
         <div className="container">
           <div className="mb-12">
-            <div className="badge-capsule mb-4">Catálogo</div>
+            <div className="badge-capsule mb-4">Serviços</div>
             <h2 className="heading-display text-accent mb-6">O que oferecemos</h2>
           </div>
           <div className="grid md:grid-cols-2 gap-8">
@@ -312,11 +315,10 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2">
               <img
-                src="/manus-storage/mitsuba-logo-cat_215c624c.png"
+                src="/home/ubuntu/webdev-static-assets/mitsuba-logo-real.png"
                 alt="Mitsuba Logo"
-                className="h-8 w-8"
+                className="h-10 w-10"
               />
-              <span className="font-bold text-accent">MITSUBA</span>
             </div>
             <p className="text-sm text-foreground/60">
               © 2026 Mitsuba Brechó. Garimpe sua identidade.
